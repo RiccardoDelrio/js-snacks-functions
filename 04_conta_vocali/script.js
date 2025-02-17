@@ -25,3 +25,19 @@ console.log(vocalCount(word));
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
+
+
+/* function vocalCount(str) {
+    const vocali = ["a", "e", "i", "o", "u"]
+    let count = 0
+    let vocalitrovate = []
+    for (let i = 0; i < str.length; i++) {
+        if (vocali.includes(str[i])) {
+            count++
+            vocalitrovate.push(str[i])
+        }
+
+    }
+    return count, vocalitrovate
+}
+console.log(vocalCount(word)); */

@@ -26,3 +26,15 @@ sayHello(nome)
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
+
+//BONUS
+/* function sayHello(str) {
+    let now = new Date().getHours()
+    if (now <= 13) {
+        console.log(`"Buongiorno " ${str}`);
+    } else if (now <= 17) {
+        console.log(`"Buon pomeriggio " ${str}`);
+    } else
+        console.log(`"Buonasera " ${str}`);
+}
+sayHello(nome) */

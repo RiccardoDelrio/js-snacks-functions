@@ -11,3 +11,12 @@ const sayHello = (word) => "Ciao " + word
 console.log(sayHello(userName))
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+
+/// bonus
+/* function sayHello(word) {
+    console.log("Ciao " + word)
+
+} */
+

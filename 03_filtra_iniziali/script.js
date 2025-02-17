@@ -20,3 +20,16 @@ console.log(namesFilter(names, "A"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+
+//BONUS
+/* function namesFilter(arr, word) {
+    const newNames = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].charAt(0) === word) {
+            newNames.push(arr[i])
+        }
+    }
+    return newNames
+}
+console.log(namesFilter(names, "A")); */

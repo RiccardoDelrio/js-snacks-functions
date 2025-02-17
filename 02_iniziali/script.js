@@ -19,3 +19,16 @@ console.log(firstLetter(names))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+
+
+//BONUS
+/* function firstLetter(arr) {
+    const letters = []
+    for (let i = 0; i < arr.length; i++) {
+        let lettera = arr[i].charAt(0)
+        letters.push(lettera);
+    }
+
+    return letters
+} */
