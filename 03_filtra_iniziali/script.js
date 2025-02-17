@@ -4,9 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+const namesFilter = (arr, word) => {
+    const newNames = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].charAt(0) === word) {
+            newNames.push(arr[i])
+        }
+    }
+    return newNames
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(namesFilter(names, "A"));
 
 
 
